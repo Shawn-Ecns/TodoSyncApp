@@ -1,0 +1,32 @@
+{
+  "name": "@todo-sync/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.75",
+    "@todo-sync/shared": "workspace:*",
+    "axios": "^1.9",
+    "react": "^19.1",
+    "react-dom": "^19.1",
+    "react-router-dom": "^7.6",
+    "socket.io-client": "^4.8",
+    "zustand": "^5.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1",
+    "@types/react-dom": "^19.1",
+    "@vitejs/plugin-react": "^4.5",
+    "autoprefixer": "^10.4",
+    "postcss": "^8.5",
+    "tailwindcss": "^4.1",
+    "@tailwindcss/vite": "^4.1",
+    "typescript": "^5.7",
+    "vite": "^6.3"
+  }
+}

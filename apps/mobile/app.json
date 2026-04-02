@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Todo Sync",
+    "slug": "todo-sync",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#3B82F6"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.todosync.app"
+    },
+    "android": {
+      "package": "com.todosync.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#3B82F6"
+      }
+    }
+  }
+}
